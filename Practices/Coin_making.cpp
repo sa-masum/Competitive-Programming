@@ -34,7 +34,7 @@ int isPossible(int n){
             break;
         }
     }
-    return res;
+    return dp[n] = res;
 }
 
 
